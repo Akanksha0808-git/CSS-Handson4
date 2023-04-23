@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    height: 25px;
+    width: 100%;
+    background-image: linear-gradient(to left , yellow,greenyellow,green, red );
+
+}
+.text{
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 703px;
+}
+.container2{
+    border: 4px solid red;
+    border-radius: 10px;
+    height: 65px;
+    width: 60%;
+    background-color: skyblue;
+    /* margin-top: 15px ; */
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+ul{
+    display: inline-block;
+
+    /* margin: 500px; */
+}
+li{
+    padding-left: 50px;
+
+  } 
+  .container3{
+    display: grid;
+    height: 310px;
+    background-color: rgb(47, 255, 220);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px 150px;
+    border: 4px solid burlywood;
+    border-radius: 20px;
+    margin-top: 15px;
+
+  } 
+  .word{
+    margin-left: 20px;
+background-color: aqua;
+border: 4px solid green;
+border-radius: 20px;
+font-size: 20px;
+font-weight: 600;
+  }
+  .word3{
+   margin-right: 20px;
+  }
+  .word4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .container4{
+    height: 35px;
+    width: 100%;
+    background-image: linear-gradient(to left ,red, yellow, red );
+    margin-top:25px;
+  }
+  .text1{
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: 600;
+    padding-left: 703px;
+  }
+  .container5{
+         height: 400px;
+         background-image:radial-gradient(ellipse,blue,aqua,green) ;
+         margin-top: 15px;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center
+        }
+        .tot{
+        
+            height: 140px;
+            width: 250px;
+            background-color: yellow;
+            border-radius: 15px;
+            border: 3px solid red;
+            color: red;
+            text-decoration: underline;
+            font-weight: 600;
+            position: relative;
+            /* margin-top: 10px; */
+        }
+        .akash{
+            position: absolute;
+            left: 60px;
+            text-decoration: underline;
+        }
+        .number{
+            font-size: 19px;
+            position: absolute;
+            left: 85px; 
+            top: 40px;
+            text-decoration: underline;
+        }
+        .got{
+            position: absolute;
+            font-size: 17px;
+            left: 54px;
+            top: 86px;
+            text-decoration: underline;
+        }
+        
+
+  .container6{
+    display:grid;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr 100px;
+    grid-template-rows:50px 100px 150px 30px;
+    gap: 15px;
+    margin-top: 15px;
+
+  
+}
+
+.box{
+    background-color: aqua;
+    /* border: 2px solid black ; */
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(222, 41, 41);
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.box2{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: greenyellow;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.box3{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(18, 173, 235);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.box4{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: blueviolet;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.box5{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(243, 129, 8);
+    grid-column:1/4;
+    grid-row: 3/4;
+}
+.box6{
+    font-weight: 600;
+    font-size: 40px;
+    background-color: rgb(41, 38, 38);
+    grid-column: 4/5;
+    grid-row: 2/4;
+    color: white;
+    font-size: 21px;
+    text-decoration: underline;
+}
+.box7{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 3px;
+}
